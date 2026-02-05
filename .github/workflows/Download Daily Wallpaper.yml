@@ -2,8 +2,11 @@ name: Download Daily Wallpaper
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -20,7 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-   
+
       # - name: Download Unslpash daily image
       #   run: |
       #     npm i -g unsplash-wallpaper
@@ -29,15 +32,15 @@ jobs:
       #     mv -fv wallpaper-photo*.jpg unsplash_wallpaper_4k.jpg
       #     unsplash-wallpaper --featured --search wallpapers --daily --width 1920 --height 1080
       #     mv -fv wallpaper-photo*.jpg unsplash_wallpaper_1080p.jpg
-          
+
       - name: Download Bing wallpaper
         run: |
           cd ./assets/
           wget "https://bingw.jasonzeng.dev/?resolution=UHD" -O "bing_wallpaper_4k.jpg"
           wget "https://bingw.jasonzeng.dev/?resolution=1920x1080" -O "bing_wallpaper_1080p.jpg"
-          
+
       - name: Push to GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message:: 'Download Daily Wallpaper'
+          commit_message: "Download Daily Wallpaper"
           branch: main
