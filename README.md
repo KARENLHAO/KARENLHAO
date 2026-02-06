@@ -22,9 +22,6 @@
         <code><img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" /></code>
       </p>
     </td>
-    <td width="38%" align="right" valign="top" style="padding-top: 40px;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KARENLHAO&theme=graywhite" alt="Repos per language"/>
-    </td>
   </tr>
 </table>
 
