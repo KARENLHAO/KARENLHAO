@@ -3,9 +3,9 @@
   <img src="assets/profile-card-dark.svg#gh-dark-mode-only" alt="HAO profile intro" width="100%" />
 </p>
 
-<table>
+<table width="100%">
   <tr>
-    <td width="62%" valign="top">
+    <td valign="top" width="100%">
       <h1>Hi there &#128075;:</h1>
       <p>My name is HAO. I am a college student studying data science.</p>
       <ul>
