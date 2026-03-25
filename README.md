@@ -5,7 +5,7 @@
 
 # Hi there 👋
 
-My name is HAO. I am a college student studying data science.
+My name is HAO. I am a college student majoring in data science.
 
 - ❤️ Computer, Agents, Skills, Bioinformation
 - 📫 <a href="mailto:hao.serendipity@outlook.com">hao.serendipity@outlook.com</a>
